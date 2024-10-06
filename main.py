@@ -30,7 +30,6 @@ import aiohttp
 from myserver import server_on
 #from discord_webhook import DiscordWebhook, DiscordEmbed
 
-print(os.getenv("MY_SECRET"))
 
 avatarbot = "https://cdn.discordapp.com/attachments/1282601980870787084/1290566193870274612/IMG_6477.jpg?ex=66fe3e6e&is=66fcecee&hm=5b7baf8852f1a40bc8b95f4474ebffe93ac6888f80f798c0c372afbf25de9879&"
 with open('settings.json', 'r', encoding="utf-8") as json_file:
